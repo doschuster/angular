@@ -8,6 +8,7 @@ import { AppComponent } from './components/app/app.component';
 import { NavComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { ImpressumComponent } from './components/impressum/impressum.component';
+import { LogService } from './services/log.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { ImpressumComponent } from './components/impressum/impressum.component';
     MatIconModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    LogService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

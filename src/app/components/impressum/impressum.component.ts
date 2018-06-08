@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {LogService } from './../../services/log.service';
 
 @Component({
     selector: 'impressum',
@@ -6,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class ImpressumComponent implements OnInit {
-    constructor() { }
+    constructor(
+        private logger: LogService
+    ) { }
 
-    ngOnInit() { }
+    ngOnInit() {
+        this.logger.log('Service Test')
+     }
 }
