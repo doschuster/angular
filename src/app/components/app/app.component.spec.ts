@@ -3,7 +3,6 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppRoutingModule } from './../../app-routing-module';
 
 import { AppComponent } from './app.component';
-import { NavComponent } from '../navbar/navbar.component';
 import { HomeComponent } from '../home/home.component';
 import { ImpressumComponent } from '../impressum/impressum.component';
 describe('AppComponent', () => {
