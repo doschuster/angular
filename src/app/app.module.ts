@@ -7,7 +7,7 @@ import { NavbarContentModule } from './components/navbar-content/navbar-content.
 import { DashboardModule } from './dashboard/dashboard.module';
 import { NavbarModule } from './navbar/navbar.module';
 
-import { AppComponent } from './components/app/app.component';
+import { AppComponent } from './app/app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ImpressumComponent } from './components/impressum/impressum.component';
 
